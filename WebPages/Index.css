@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Header {
+	float: top;
+	font-size: "40 pt";
+}
+
+.Header-Right {
+	float: Right;
+}
+.Nav-Bar {
+	font:"Perpetua Titling MT";
+	font-size: "18 pt";
+}
