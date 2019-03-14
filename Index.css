@@ -1,0 +1,168 @@
+@charset "utf-8";
+/* CSS Document */
+body, html {
+  height: 100%;
+  margin: 0;
+}
+/*--------------------------------Header-------------------------------*/
+.Header {
+	float: top;
+	align: block;
+	background-image: -webkit-linear-gradient(-90deg, rgba(0, 0, 0, 0.14901999999999999) 0%, rgba(0, 0, 0, 0) 100%);
+	background-image: -moz-linear-gradient(-90deg, rgba(0, 0, 0, 0.14901999999999999) 0%, rgba(0, 0, 0, 0) 100%);
+	background-image: -o-linear-gradient(-90deg, rgba(0, 0, 0, 0.14901999999999999) 0%, rgba(0, 0, 0, 0) 100%);
+	background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.14901999999999999) 0%, rgba(0, 0, 0, 0) 100%);
+	min-height: 60px;
+	height: 11%;
+}
+
+.Header-Left {
+	float: Left;
+	font-family: Audrey;
+	color: #313131;
+	font-size: 55px;
+	font-weight: 400;
+	padding-left: 5px;
+	position:fixed; 
+}
+
+.Nav-Bar {
+	padding-top: 10px;
+	float: right;
+	width: 54%;
+	text-align: right;
+	
+}
+
+.Nav-Active {
+	width: 15%;
+	font-family: CenturyGothic;
+	color: #ef8126;
+	font-size: 20px;
+	font-weight: 700;
+	transform: matrix(1,0,-0.25,1.028,0,0);
+	padding-right: 16px;
+	padding-left: 16px;
+	text-decoration: underline;
+}
+
+.Nav-Text {
+	width: 15%;
+	font-family: PerpetuaTitlingMT;
+	color: #9b9b9b;
+	font-size: 20px;
+	font-weight: 700;
+	transform: matrix(1,0,-0.25,1.028,0,0);
+	padding-right: 16px;
+	padding-left: 16px;
+	
+}
+
+.Nav-Text:hover {
+	width: 15%;
+	font-family: PerpetuaTitlingMT;
+	color: #6d6d6d;
+	font-size: 20px;
+	font-weight: 700;
+	transform: matrix(1,0,-0.25,1.028,0,0);
+	padding-right: 16px;
+	padding-left: 16px;
+	text-decoration: underline;
+}
+
+.Nav-Active:hover {
+	width: 15%;
+	font-family: PerpetuaTitlingMT;
+	color: #6d6d6d;
+	font-size: 20px;
+	font-weight: 700;
+	transform: matrix(1,0,-0.25,1.028,0,0);
+	padding-right: 16px;
+	padding-left: 16px;
+	text-decoration: underline;
+}
+
+
+/*---------------------------------Body--------------------------------*/
+
+      /*---------------------------Hero--------------------------*/
+
+.Hero {
+  background-image: url("Images/Hero/Insta Photo-81.JPG");
+  height: 89%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+
+.Hero-Text {
+	font-family: Impact;
+	color: #ffffff;
+	font-size: 200px;
+	font-weight: 400;
+	position: relative;
+	float: left;
+	top: 50%;
+	left: 46%;
+	transform: translateX(-50%) translateY(-50%);
+}
+
+.Hero-Logo {
+	width: 150px;
+	position: absolute;
+	bottom:0;
+    right:0;
+	padding-bottom: 10px;
+	padding-right: 30px;
+}
+
+.Hero-Arrow {
+	width: 100px;
+	position: absolute;
+	bottom:0;
+    right:1;
+	padding-bottom: 10px;
+	padding-right: 30px;
+}
+
+/*---------------------------------Main--------------------------------*/
+.Main {
+	height: 3000px;
+	left: 50%;
+	padding-top: 10px;
+	width: 98%;
+	text-align: center;
+}
+.Images img{
+	width: 280px;
+	height: 280px;
+	padding: 10px;
+	object-fit: cover;
+}
+
+/*--------------------------------Footer-------------------------------*/
+
+.Footer {
+	background-color: #202020;
+	height: 150px;
+	width: 100%;
+	align: inline-block;
+	border-style: solid;
+	
+}
+
+.Footer-Text {
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 30px;
+	font-style: italic;
+	position: relative;
+	float: left;
+	top: 40%;
+}
+
+
+
+
+

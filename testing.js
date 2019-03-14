@@ -1,0 +1,1 @@
+<img src={`${require('../Images/Hero/Insta Photo-82.jpg')}`} />
