@@ -1,1 +1,2 @@
-<img src={`${require('../Images/Hero/Insta Photo-82.jpg')}`} />
+new File("/path/to/folder").listFiles().length
+System.out.println("Number of files: " + count);

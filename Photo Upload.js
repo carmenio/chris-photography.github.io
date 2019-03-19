@@ -1,8 +1,10 @@
 // JavaScript Document
 $(document).ready( function() {
 
- $("span").each( function(i) {
-  $(this).append("<img src='Images/With Out Logo/Insta Photo-"+(++i)+".JPG' />");	
- });
+	const $spans = $("span");
+	const { length } = $spans;
+	$spans.each(function(i) {
+	  $(this).append("<img src='Images/With Out Logo/Insta Photo-" + (length - i) + ".JPG' />");
+	});
  
 });
