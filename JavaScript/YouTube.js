@@ -1,7 +1,9 @@
 // JavaScript Document
+
     var channelID = "UCJPynmam-TseDbbxcjAVomg";
     var reqURL = "https://www.youtube.com/feeds/videos.xml?channel_id=";
-    $.getJSON("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(reqURL)+channelID, function(data) {
+    $.getJSON("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(reqURL)+channelID, 
+	function(data) {
 		var link1 = data.items[0].link;
 		var id = link1.substr(link1.indexOf("=")+1);	
     $("#youtube_video-1").attr("src","https://youtube.com/embed/"+ id + "?controls=0&showinfo=0&rel=0");
